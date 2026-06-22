@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17214c3a-ee0b-45ba-93c3-04654c90639c" name="Changes" comment="" />
+    <list default="true" id="17214c3a-ee0b-45ba-93c3-04654c90639c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/deduplicator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/normalizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/csv_exporter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrappers/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrappers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrappers/computrabajo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrappers/getonboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrappers/laborum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrappers/linkedin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +42,9 @@
     &quot;assignee&quot;: &quot;german-rs&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0063d724-ec57-451e-9bce-3079fd461b20" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/german-rs/BuscaMenos.git&quot;,
@@ -27,61 +53,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0026686627509873" />
-      <entry key="MS500" value="1.496405598099312" />
-      <entry key="S2" value="4.967737235488247" />
-      <entry key="S5" value="10.570806387972443" />
-      <entry key="S10" value="17.20571501877731" />
-      <entry key="S30" value="28.486827647549177" />
-      <entry key="S60" value="33.46406778128289" />
-      <entry key="M2" value="36.50309606921596" />
-      <entry key="M5" value="38.541140833151175" />
-      <entry key="M10" value="39.26008657093606" />
-      <entry key="M15" value="39.50435853088459" />
-      <entry key="M30" value="39.750987167016156" />
-      <entry key="H1" value="39.8751938248667" />
-      <entry key="H2" value="39.937521754784825" />
-      <entry key="H4" value="39.968742060654215" />
-      <entry key="D1" value="39.99478772768356" />
-      <entry key="W1" value="39.9992553255794" />
+      <entry key="MS100" value="1.352617224193702E-12" />
+      <entry key="MS500" value="0.006744938114791904" />
+      <entry key="S2" value="1.0236869652318021" />
+      <entry key="S5" value="3.1917347743232245" />
+      <entry key="S10" value="4.7143600221663835" />
+      <entry key="S30" value="6.473560796246632" />
+      <entry key="S60" value="9.056203027964427" />
+      <entry key="M2" value="13.6415862820783" />
+      <entry key="M5" value="19.62166765954053" />
+      <entry key="M10" value="25.049547378163425" />
+      <entry key="M15" value="32.29157727068421" />
+      <entry key="M30" value="54.545756303495196" />
+      <entry key="H1" value="80.69002193903168" />
+      <entry key="H2" value="101.1441554434449" />
+      <entry key="H4" value="113.99601252187095" />
+      <entry key="D1" value="126.33504174507479" />
+      <entry key="W1" value="128.61505916259293" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0000000670587113" />
+      <entry key="MS500" value="1.0367528515715927" />
+      <entry key="S2" value="1.4378473848947102" />
+      <entry key="S5" value="1.7186693180962744" />
+      <entry key="S10" value="1.847743662964386" />
+      <entry key="S30" value="1.9464293154547407" />
+      <entry key="S60" value="1.9728459875332378" />
+      <entry key="M2" value="1.9863317698876106" />
+      <entry key="M5" value="2.0028057855011" />
+      <entry key="M10" value="2.1260650124548963" />
+      <entry key="M15" value="2.3195218706587406" />
+      <entry key="M30" value="2.8007752916162785" />
+      <entry key="H1" value="3.2657896734563447" />
+      <entry key="H2" value="3.5911526444536066" />
+      <entry key="H4" value="3.7839155846341535" />
+      <entry key="D1" value="3.9622505925217437" />
+      <entry key="W1" value="3.994563132763428" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.06473011904013055" />
-      <entry key="MS500" value="0.8860931508167921" />
-      <entry key="S2" value="4.670404678147846" />
-      <entry key="S5" value="10.422067727523242" />
-      <entry key="S10" value="17.115576275323846" />
-      <entry key="S30" value="28.440179362836197" />
-      <entry key="S60" value="33.43542656141976" />
-      <entry key="M2" value="36.48693075567518" />
-      <entry key="M5" value="38.53414503797239" />
-      <entry key="M10" value="39.256492061017795" />
-      <entry key="M15" value="39.501940060839246" />
-      <entry key="M30" value="39.7497666973631" />
-      <entry key="H1" value="39.87458074916384" />
-      <entry key="H2" value="39.93721450264962" />
-      <entry key="H4" value="39.96858825550521" />
-      <entry key="D1" value="39.99476206857621" />
-      <entry key="W1" value="39.99925165938186" />
+      <entry key="MS100" value="0.023357019539886115" />
+      <entry key="MS500" value="0.4861510989019803" />
+      <entry key="S2" value="2.1441891528597914" />
+      <entry key="S5" value="4.7277680050655615" />
+      <entry key="S10" value="6.4567420562846864" />
+      <entry key="S30" value="8.380991958859696" />
+      <entry key="S60" value="11.008631252461361" />
+      <entry key="M2" value="15.617153549666792" />
+      <entry key="M5" value="21.61986884382934" />
+      <entry key="M10" value="27.17284121263381" />
+      <entry key="M15" value="34.60866570252576" />
+      <entry key="M30" value="57.34440381728421" />
+      <entry key="H1" value="83.95422293094933" />
+      <entry key="H2" value="104.73431119418987" />
+      <entry key="H4" value="117.77936647263003" />
+      <entry key="D1" value="130.29718866532681" />
+      <entry key="W1" value="132.60960721990995" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -99,6 +125,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -112,7 +139,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -133,21 +160,26 @@
       <updated>1781820342834</updated>
       <workItem from="1781820343823" duration="1463000" />
       <workItem from="1781870706210" duration="159000" />
+      <workItem from="1782067756973" duration="2727000" />
+      <workItem from="1782162367289" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BuscaMenos$main.coverage" NAME="main Coverage Results" MODIFIED="1782162724744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
