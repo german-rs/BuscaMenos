@@ -39,6 +39,7 @@ logs/
 # IDEs
 .vscode/
 .idea/
+.idea/workspace.xml
 *.swp
 *.swo
 
